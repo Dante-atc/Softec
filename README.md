@@ -1,2 +1,2 @@
 # Softec
-Software Eng. II. Proyect
+Software Eng. II. Project in Universidad de Sonora
