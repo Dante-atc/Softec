@@ -1,0 +1,26 @@
+# Ignorar archivo de variables de entorno
+.env
+
+# Ignorar archivos de compilacion
+
+/target/
+*.class
+*.jar
+*.war
+
+# Ignorar archivos de log 
+*.log
+
+# Ignorar archivos temporales de emacs
+\#*\#
+.\#*
+
+# Ignorar archivos org-mode
+.Org*
+.org* 
+
+# Ignorar archivos comprimidos, ejecutables y de estilo
+.zip
+.exe
+
+
