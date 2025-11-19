@@ -6,8 +6,9 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
-@RequestMapping("/Tipos-Luz")
+@RequestMapping("/api/Tipos-Luz")
 public class TipoLuzController {
 
     private final TipoLuzService service;

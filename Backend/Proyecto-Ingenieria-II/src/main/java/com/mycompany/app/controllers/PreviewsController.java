@@ -7,8 +7,9 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
-@RequestMapping("/Previews") // mayúscula inicial como en Imagenes
+@RequestMapping("/api/Previews") 
 public class PreviewsController {
 
     @Autowired
